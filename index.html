@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Trivia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://static.wixstatic.com/media/df7a3e_7410427cf3ef48038330aa7e89a24270~mv2.png/v1/fill/w_560,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/trivia.png"
+         alt="Title Image" class="title-image"> 
+        <h1>GIS Trivia Game</h1>
+        <div id="grid" class="grid"></div>
+    </div>
+    <div id="question-modal" class="question-modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <img id="question-image" src="" alt="Question Image" class="question-image">
+            <div id="question-text"></div>
+            <button id="reveal-answer-button" class="reveal-answer-button">Reveal Answer</button>
+            <div id="answer-text" class="answer-text"></div>
+            <div class="options-buttons">
+                <button id="ask-friend-button" class="option-button">Ask a Friend</button>
+                <button id="slice-options-button" class="option-button">Get Options</button>
+                <button id="google-search-button" class="option-button">Google Search</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
